@@ -1,0 +1,46 @@
+{
+    "testingURL" : "https://www.kayak.com/",
+
+    "locator":{
+
+        "pageLocators":{
+            "tripDropdown1": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "tripSelection1": "/html[1]/body[1]/div[4]/div[1]/div[2]/ul[1]/li[2]",
+            "tripSelection2": "/html[1]/body[1]/div[4]/div[1]/div[2]/ul[1]/li[3]",
+            "tripDropdown2": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[2]/div[1]",
+            "timeFrom": "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[1]",
+            "adultsCount" : "/html[1]/body[1]/div[79]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/input[1]",
+            "searchField:" : "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "addField" : "/html[1]/body[1]/div[2]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/section[2]/div[1]/div[1]/div[2]/form[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+            "searchData" : "//input[contains(@id,'-origin-airport')]",
+            "selection1" : "//*[@id='ap-ATL/11123']/div[2]",
+            "searchDestinationInput" : "//input[contains(@id ,'-destination-airport')]",
+            "departureDateClick" : "_iaf _iEc _ia1 _i7r _iv1 _j0z _iPK _j0x _j0B _iai",
+            "inputDepartureDate" : "input _iKG _id7 _ial _ii0 _iQj _iaj _ihh _idE",
+            "arrivalDateClick" : "//div[contains(@id,'-dateRangeInput-display-end-inner')]",
+            "arrivalDateInput" : "//div[contains(@id,'-return-input')]",
+            "finalSearch" : "//*[@class='_ivP _iv1']"
+        },
+
+
+
+        "Scenario1" :{
+            "originInput" : "Hartsfield-jackson Atlanta International Airport",
+            "originSelection" : "Hartsfield-jackson",
+            "destinationInput" : "Dubai International Airport (DXB)",
+            "destionationSelection" : "Dubai, United Arab Emirates",
+            "passangers" : {
+                "Adults" : 4,
+                "Seniors" : 0,
+                "Youth" : 0,
+                "Child" : 0,
+                "seatInfant" : 0,
+                "lapinfant" : 0
+            },
+            "Departure" : "08/05/2019",
+            "Arrival" : "08/16/2019"
+        }
+    }
+}
+
+
