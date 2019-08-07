@@ -14,6 +14,7 @@
           
       },
       specs:["spec.js"],
+      
   
       // Options to be passed to Jasmine.
   
@@ -54,10 +55,9 @@
     // Spec patterns are relative to the current working directory when
     // protractor is called.
   
-  suites: {
-        smoke: ['../testCase/Encounters.js']
-       // cashRegistor: ['C:/Agents/Protractor/Protractor-Drop/3/s//**/*Login.js', 'C:/Agents/Protractor/Protractor-Drop/3/s//**/*cashRegistor.js']
-    },
+  suies: {
+      
+  },
       jasmineNodeOpts: {
           defaultTimeoutInterval: 4000000
       }
